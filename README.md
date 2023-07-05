@@ -33,7 +33,7 @@ The problem is to develop a sentiment analysis system for financial markets that
  Model Evaluation
 - Evaluate the performance of the trained sentiment analysis model using suitable evaluation metrics such as accuracy, precision, recall, and F1-score. Utilize techniques like cross-validation to ensure the model's generalizability and assess its performance on unseen data.
 
-  "Advance.py"- using GloVe to extract features and using Recurrent Neural Networks (RNNs)
+  "Advance.py"- using GloVe to extract features and using Convolutional Neural Networks (CNNs)
   Gave maximum accuracy of 84% on a Data set of datab.csv
   Using data.csv to train gives an accuracy of 69% and on being tested on datb.csv gives an 
   accuracy of 87%
