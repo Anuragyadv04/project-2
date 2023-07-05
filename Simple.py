@@ -1,10 +1,11 @@
+
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
 # Read data from CSV file
-data = pd.read_csv('dataa.csv', encoding='latin1')
+data = pd.read_csv('data.csv', encoding='latin1')
 
 # Extract reviews and labels from the DataFrame
 reviews = data['Sentence'].tolist()
@@ -33,12 +34,12 @@ accuracy = classifier.score(X_test_bow, y_test)
 print("Accuracy:", accuracy)
 
 
-
-new_data = pd.read_csv('Data.csv', encoding='latin1')
+# Read data from test CSV file 
+new_data = pd.read_csv('Datb.csv', encoding='latin1')
 new_sentences = new_data['Sentence'].tolist()
 new_sentiments = new_data['Sentiment'].tolist()
 
-
+# Fit the vectorizer on the training data and transform the training data
 X_test_bow = vectorizer.transform(new_sentences)
 
 # Predict sentiment labels for the testing data
