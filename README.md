@@ -23,7 +23,7 @@ The problem is to develop a sentiment analysis system for financial markets that
  Feature Extraction
 - Extract relevant features from the preprocessed textual data. This can include bag-of-words representations, word embeddings (e.g., Word2Vec, GloVe), or more advanced techniques like BERT embeddings. Consider incorporating domain-specific features that capture financial jargon and sentiment indicators.
 
-(For this project I tried out   bag-of-words, Word2Vec, and  GloVe techniques for feature extraction. The bag-of-words approach is being used in Simple.py and The GloVe approach is being used in Advance.py )
+(For this project I tried out   bag-of-words, Word2Vec, and  GloVe techniques for feature extraction. The bag-of-words approach is being used in Simple.py and The tokenization approach is being used in Advance.py )
 
  Model Selection and Training
 - Choose an appropriate machine learning or deep learning model for sentiment analysis. This can range from traditional models such as Naive Bayes, Support Vector Machines (SVM), or more advanced techniques like Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs), or Transformers. Train the selected model using the labeled dataset from Step 3.
@@ -33,6 +33,14 @@ The problem is to develop a sentiment analysis system for financial markets that
  Model Evaluation
 - Evaluate the performance of the trained sentiment analysis model using suitable evaluation metrics such as accuracy, precision, recall, and F1-score. Utilize techniques like cross-validation to ensure the model's generalizability and assess its performance on unseen data.
 
+ "Simple.py" - using bag-of-words to extract features and using Logistic Regression
+  Gave maximum accuracy of 80% on a Data set of datab.csv
+  Using data.csv to train gives an accuracy of 69% and on being tested on datb.csv gives an 
+  accuracy of 84%
+  Using datb.csv to train gives an accuracy of 77% and on being tested on data.csv gives an 
+  accuracy of 73% 
+
+  
   "Advance.py"- using GloVe to extract features and using Convolutional Neural Networks (CNNs)
   Gave maximum accuracy of 84% on a Data set of datab.csv
   Using data.csv to train gives an accuracy of 69% and on being tested on datb.csv gives an 
@@ -40,12 +48,7 @@ The problem is to develop a sentiment analysis system for financial markets that
   Using datb.csv to train gives an accuracy of 78% and on being tested on data.csv gives an 
   accuracy of 76%
 
-  "Simple.py" - using bag-of-words to extract features and using Logistic Regression
-  Gave maximum accuracy of 80% on a Data set of datab.csv
-  Using data.csv to train gives an accuracy of 69% and on being tested on datb.csv gives an 
-  accuracy of 84%
-  Using datb.csv to train gives an accuracy of 77% and on being tested on data.csv gives an 
-  accuracy of 73%
+  
 
 Additionally :
 Following things can be done further
