@@ -34,6 +34,8 @@ accuracy = classifier.score(X_test_bow, y_test)
 print("Accuracy:", accuracy)
 
 
+## To test the model on new data set
+
 # Read data from test CSV file 
 new_data = pd.read_csv('Datb.csv', encoding='latin1')
 new_sentences = new_data['Sentence'].tolist()
