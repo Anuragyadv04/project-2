@@ -9,7 +9,7 @@ from keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense, Dropout
 from sklearn.metrics import accuracy_score
 
 # Load the data from the CSV file
-data = pd.read_csv('dataa.csv', encoding='latin1')
+data = pd.read_csv('data.csv', encoding='latin1')
 
 # Preprocess the data
 sentences = data['Sentence'].values
@@ -63,8 +63,11 @@ true_classes = np.argmax(sentiments_test, axis=1)
 accuracy = np.mean(predicted_classes == true_classes)
 print('Accuracy:', accuracy)
 
-## Load the new dataset
-new_data = pd.read_csv('Data.csv', encoding='latin1')
+
+## To test the model on new data set
+
+# Load the new dataset
+new_data = pd.read_csv('datb.csv', encoding='latin1')
 new_sentences = new_data['Sentence'].values
 new_sentiments = new_data['Sentiment'].values
 
