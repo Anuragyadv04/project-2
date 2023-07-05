@@ -48,7 +48,7 @@ The problem is to develop a sentiment analysis system for financial markets that
   accuracy of 73%
 
 Additionally :
-Folly things can be done further
+Following things can be done further
 
 Visualization and Interpretation
 - Visualize the sentiment analysis results using appropriate charts, graphs, or dashboards. Analyze and interpret the sentiment trends, identify key sentiment drivers, and gain insights into the impact of sentiment on market trends and investor behavior.
