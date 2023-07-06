@@ -59,7 +59,7 @@ Visualization and Interpretation
 Model Refinement and Iteration
 - Continuously refine and improve the sentiment analysis model based on feedback and new data. Explore techniques like ensemble methods, hyperparameter tuning, or incorporating additional data sources to enhance the accuracy and relevance of the sentiment analysis.
 
-Step 10: Performance Monitoring and Updates
+Performance Monitoring and Updates
 - Monitor the performance of the sentiment analysis system over time and update the model periodically to adapt to changing market dynamics and evolving sentiment patterns. Stay updated with the latest research and techniques in sentiment analysis to incorporate advancements into the system.
 
 
